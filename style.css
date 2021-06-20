@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1548386135-b47fa5a79ae6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  letter-spacing: .4rem;
+  margin-bottom: 3rem;
+}
+
+.time {
+  /* display: flex; */
+  display: none;
+  margin: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.time li {
+  margin: 1rem 3rem;
+}
+
+.time li p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.time li span {
+  font-size: 5rem;
+}
+
+.year {
+  font-size: 16rem;
+  color: rgba(255,255,255,0.2);
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
